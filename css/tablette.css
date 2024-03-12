@@ -1,0 +1,59 @@
+
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (min-width:767px) and (max-width: 1024px) {
+
+
+/* HEADER */
+.menu {
+    padding:0px 50px;       
+}
+    
+/* Filtres */
+   
+.numeroun{
+    flex-basis:100%;
+}
+
+
+    /* HEBERGEMENTS */
+
+.hebergements-and-populaires {
+    flex-direction: column;
+}
+
+.hebergements {
+    width: 100%;
+}  
+        
+
+/* POPULAIRES */
+
+.populaires {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.populaires-cards {
+
+    flex-direction: row;
+    gap:20px;
+}
+
+.populaires-cards .card {
+    width: 34%;
+}
+
+
+
+/* ACTIVITES */
+
+
+.activites-cards img {
+    height:200px;
+    width: 100%;
+
+}
+
+
+}

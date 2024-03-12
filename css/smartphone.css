@@ -1,0 +1,256 @@
+/* Small devices (phones, less than 768px) */
+
+@media (min-width:320px) and (max-width:767.98px) {
+
+    /* HEADER */
+    header{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    main {
+        margin:0;
+    }
+    
+    /* MENU DROITE */
+    
+    .menu {
+        flex-direction:row;
+        align-items:flex-start;
+        gap:15px;
+        width :375px;
+        margin-bottom: 30px;
+    }
+    
+    
+ nav {
+        justify-content: space-between;
+    } 
+          
+    nav a {
+        flex-grow: 1;
+    }
+    
+    .texte_menu{
+        margin-top: 0;
+    }
+    
+    li{
+        list-style-type: none;   
+    }
+    
+    .hebergement{
+        width: 187.5px;
+        display: flex;
+        justify-content: center;
+    } 
+    
+    .activite{
+        width: 187.5px;
+        display: flex;
+        justify-content: center;
+        align-self: stretch;
+    }
+    
+    .boutton_menu{
+            display: flex;
+            gap:0;
+        }     
+    
+    ul li a:hover{
+        border-bottom: 2px solid var(--blue, #0065FC);
+        padding-bottom: 15px;}
+    
+     a.texte_menu:hover {
+            border-top:hidden;
+            padding-top:0px; 
+           }
+    
+    nav{ 
+        border-bottom: 2px solid var(--grey, #F2F2F2);
+        padding-bottom: 15px; 
+        width: 100%;
+    }
+    
+    
+    /* LOGO GAUCHE */
+    
+    
+    .container_logo{ 
+        padding:0;   
+        flex-direction:column;
+        gap:10px;       
+        height: 79px;
+        width: 121px;
+    } 
+    
+    .image_booki{
+        height: 19px;
+        width: 61px;
+        margin: 30px;  
+    }
+
+
+    
+    /* BARRE DE RECHERCHE*/
+    
+    .search_section{
+        padding : 30px 20px;
+    }
+    .barre{
+
+        width: 100%; 
+    }
+    
+    
+    button.recherche{
+        display: none;
+    }
+    
+    button.loupe{
+        display: block;
+    }
+    
+    
+    .fond_form_loupe{
+        display: flex;
+        justify-content: flex-end;
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    
+        height: 51px;
+        width: 49px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px 15px 15px 15px;
+        border: 1px solid var(--blue, #0065FC);
+        background: var(--blue, #0065FC);       
+    }
+    
+    
+
+    /* FILTRES */
+    
+    .filter{
+        gap:10px;
+        flex-wrap: wrap;
+      
+    }
+    
+    .card_filter{
+        flex: 1 0 0;
+        margin-top: 20px;
+    }
+        
+    
+    .text_card_filter{
+        color: var(--black, #000000);
+        font-size: 0.875rem;
+        font-weight: 700;
+
+    }
+    
+    .text-filter{
+        flex-basis:100%;
+    } 
+    
+
+    .info{
+        margin-bottom: 0;
+    }
+
+
+    /* HEBERGEMENTS ET POPULAIRES */
+*
+
+.hebergements-and-populaires {
+    flex-direction: column;
+    gap:15px;
+    margin-top: 0;
+} 
+
+
+ /* HEBERGEMENTS */
+.hebergements {
+    width:100%;
+    padding: 0;
+    gap:15px;    
+    order:2;
+    background-color: white;
+    box-sizing: border-box;
+    padding : 30px 20px;
+}
+     
+hebergements-section{
+        background-color: white;
+    }
+
+.hebergements-cards {
+    flex-direction:column;
+    gap:15px;
+   
+}
+
+.hebergements-cards .card {
+    width: 97%;
+  
+}
+ /* HEBERGEMENTS ET POPULAIRES */
+
+ .populaires {
+    width: 100%;
+    padding: 0;
+    gap:15px;
+    order:1;
+    background-color:var(--grey, #F2F2F2);
+    border-radius:0px;
+    padding : 30px 20px;
+
+ }
+ 
+
+.populaires-cards {
+    gap:15px;
+    width: 100%; 
+}
+/* ACTIVITES */
+
+.activites {
+    padding: 0;
+    gap:15px;    
+    order:2;
+    padding : 30px;
+}
+
+.activites-cards {
+    flex-direction:column;
+    gap: 15px;
+}
+
+.activites-cards .card {
+    width:100%;
+    height: 80%;
+}
+
+.activites-cards .card img {
+    object-fit: cover;
+    height:150px;    
+}
+
+/* FOOTER */
+
+.foot{
+    flex-direction: column;
+    margin: 35px 0px 0px 0px ;
+    gap:50px;
+    height: 100%;
+}
+
+.foot div{
+    padding: 30px;   
+}
+}
